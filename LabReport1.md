@@ -6,4 +6,4 @@ If you already have VScode installed you do not need to reinstall it.
 Go to the [VScode website](https://code.visualstudio.com) and read/follow the instructions on the website to download the application. Make sure to keep in mind the OS you are running, for example macOS vs Windows vs Linux. 
 
 After installation the window should look like this (however it may look slightly different depending on visual options. Ex: light vs. dark mode).
-![Image](https://userimages.githubusercontent.com/63980966/230235229-40d9fd5e-56b3-4f95-9011-e44c613641fa.png)
+![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/Screenshot%202023-04-05%20at%204.33.35%20PM.png)
