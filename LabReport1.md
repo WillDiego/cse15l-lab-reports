@@ -15,8 +15,8 @@ Go [here](https://sdacs.ucsd.edu/~icc/index.php) and follow the instructions on 
 If you are using a windows device then dowload [git](https://gitforwindows.org) and navigate to [stackoverflow](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to learn about using bash on windows.
 
 After this, open VScode again and create a new terminal window. In the terminal type
-`$ ssh cs15sp23AA@ieng6.ucsd.edu`
-where AA is replaced by the two letters accociated with your course account, this is found after logging into your account above before resetting your password. Then the terminal will prompt you for your newly reset password.
+`$ ssh cs15lsp23AA@ieng6.ucsd.edu`
+where AA is replaced by the to letters accociated with your course account, this is found after logging into your account above before resetting your password. Then the terminal will prompt you for your newly reset password.
 If its your first time connection to the server you will most likely be prompted with the following text, just type `yes`
 
 ```
