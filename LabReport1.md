@@ -28,3 +28,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Next you'll see something that looks like this appear in the terminal
 ![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/Screenshot%202023-04-05%20at%203.52.19%20PM.png)
+At this point you should be connected to the remote server. If this does not work review the steps, if it still does not work you could contact one of course TAs.
+
+## Step 3: Running Some Commands
+Now that you're remotely connected you can try typing in commands such as:
+```
+  *cd ~
+  *cd
+  *ls -lat
+  *ls -a
+ ```
