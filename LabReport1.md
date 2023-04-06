@@ -15,12 +15,12 @@ Go [here](https://sdacs.ucsd.edu/~icc/index.php) and follow the instructions on 
 If you are using a windows device then dowload [git](https://gitforwindows.org) and navigate to [stackoverflow](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to learn about using bash on windows.
 
 After this, open VScode again and create a new terminal window. In the terminal type
-`$ ssh cs15sp23AAzz@ieng6.ucsd.edu`
+`$ ssh cs15sp23AA@ieng6.ucsd.edu`
 where AA is replaced by the two letters accociated with your course account, this is found after logging into your account above before resetting your password. Then the terminal will prompt you for your newly reset password.
 If its your first time connection to the server you will most likely be prompted with the following text, just type `yes`
 
 ```
-⤇ ssh cs15lsp23zz@ieng6.ucsd.edu
+⤇ ssh cs15lsp23@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
@@ -38,3 +38,5 @@ Now that you're remotely connected you can try typing in commands such as:
  ls -lat
  ls -a
  ```
+ An example would be using `ls -lat` which would look something like this
+ 
