@@ -39,4 +39,4 @@ Now that you're remotely connected you can try typing in commands such as:
  ls -a
  ```
  An example would be using `ls -lat` which would look something like this
- 
+ ![image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/scr1.png)
