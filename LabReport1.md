@@ -33,8 +33,8 @@ At this point you should be connected to the remote server. If this does not wor
 ## Step 3: Running Some Commands
 Now that you're remotely connected you can try typing in commands such as:
 ```
- - cd ~
- - cd
- - ls -lat
- - ls -a
+ * cd ~
+ * cd
+ * ls -lat
+ * ls -a
  ```
