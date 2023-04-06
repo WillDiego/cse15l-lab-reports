@@ -27,4 +27,4 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 Next you'll see something that looks like this appear in the terminal
-![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/Screenshot%202023-04-05%20at%204.33.35%20PM.png)
+![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/Screenshot%202023-04-05%20at%203.52.19%20PM.png)
