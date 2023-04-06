@@ -7,7 +7,7 @@ If you already have VScode installed you do not need to reinstall it.
 Go to the [VScode website](https://code.visualstudio.com) and read/follow the instructions on the website to download the application. Make sure to keep in mind the OS you are running, for example macOS vs Windows vs Linux. 
 
 After installation the window should look like this (however it may look slightly different depending on visual options. Ex: light vs. dark mode).
-![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/scr3.png)
+![Image](scr3.png)
 
 ## Step 2: Remote Connect
 Go [here](https://sdacs.ucsd.edu/~icc/index.php) and follow the instructions on resetting your password. 
@@ -27,7 +27,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 Next you'll see something that looks like this appear in the terminal
-![Image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/scr2.png)
+![Image](scr2.png)
 At this point you should be connected to the remote server. If this does not work review the steps, if it still does not work you could contact one of course TAs.
 
 ## Step 3: Running Some Commands
@@ -39,5 +39,5 @@ Now that you're remotely connected you can try typing in commands. Some examples
  ls -a
  ```
  An example would be using `ls -lat` which would look something like this
- ![image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/scr1.png)
+ ![image](scr1.png)
  With this information you should be ready to remote connect and use commands in the remotely connected enviroment.
