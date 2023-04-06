@@ -31,7 +31,7 @@ Next you'll see something that looks like this appear in the terminal
 At this point you should be connected to the remote server. If this does not work review the steps, if it still does not work you could contact one of course TAs.
 
 ## Step 3: Running Some Commands
-Now that you're remotely connected you can try typing in commands such as:
+Now that you're remotely connected you can try typing in commands. Some examples of commands to use are:
 ```
  cd ~
  cd
@@ -40,3 +40,4 @@ Now that you're remotely connected you can try typing in commands such as:
  ```
  An example would be using `ls -lat` which would look something like this
  ![image](https://github.com/WillDiego/cse15l-lab-reports/blob/main/scr1.png)
+ With this information you should be ready to remote connect and use commands in the remotely connected enviroment.
