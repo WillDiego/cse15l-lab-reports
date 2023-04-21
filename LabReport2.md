@@ -12,3 +12,4 @@ This is a screenshot of the code used to run the server. Areas of note are the t
 * This screenshot is simlar with the class used being Handler class with the method `handleRequest` being the method doing all of the work.
 * For this the relevant aspects of the method for this specific call is similar to the last screenshot with the the else statement being used, in which the code checks the path and if it contains `/add-message`. If it does, which this test does, the code then checks if `s` is included in the first part of the query. Then if it is, the text containing our message is concatinated with the new text with the addition of a new line character. 
 * That values that change in this running is just the `String s` at the top of the Handler class. The string is concatinated with the value `"Banana!!" + '\n'`.
+ 
