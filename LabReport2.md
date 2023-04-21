@@ -33,7 +33,8 @@ This is a screenshot of the code used to run the server. Areas of note are the t
     assertEquals((Double) output, (Double) ArrayExamples.averageWithoutLowest(input));
   }
 ```
-* Symptom 
+* Symptom:
+![Bug](BuggyCode.png)
 * Before:
 ```
   static double averageWithoutLowest(double[] arr) {
@@ -50,7 +51,6 @@ This is a screenshot of the code used to run the server. Areas of note are the t
   }
 ```
 * After:
-![Bug](BuggyCode.png)
 ```
   static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
