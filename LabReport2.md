@@ -17,7 +17,6 @@ This is a screenshot of the code used to run the server. Areas of note are the t
  In this section I will be going over one of the bugs we covered in class. For this I will be chosing the average method in the `ArrayExamples` class. 
  * A failure inducing input for this 
 ```
-# code block
 @Test
   public void testAverage2() {
     double[] input = {1.0, 1.0, 1.0, 1.0, 5.0};
