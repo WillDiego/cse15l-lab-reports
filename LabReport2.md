@@ -34,7 +34,8 @@ This is a screenshot of the code used to run the server. Areas of note are the t
   }
 ```
 * Symptom:
-![Bug](BuggyCode.png)
+
+![Bug](CodeBug.png)
 * Before:
 ```
   static double averageWithoutLowest(double[] arr) {
