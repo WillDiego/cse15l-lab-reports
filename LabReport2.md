@@ -1,5 +1,5 @@
 # Lab Report Two
-1) Server 2) Bugs 3) Summary
+1) Server 2) Bugs 3) Reflection
 
 ## Part 1: String Server
 In this section I will be covering 
@@ -67,3 +67,6 @@ This is a screenshot of the code used to run the server. Areas of note are the t
     return sum / (arr.length - 1);
   }
 ```
+
+## Part 3: Reflection
+Over the past two weeks I learned how to create a server on my own computer and on a local wifi. The part I found the most exciting and really eye opening was the part in which I had people connect to the server running on the CSE computers that I remote started. I thought this was really interesting because it made me realize how LAN servers work for games I play. So lab 2 taught me about remote connecting and how LAN servers work.
