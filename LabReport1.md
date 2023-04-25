@@ -38,6 +38,7 @@ Now that you're remotely connected you can try typing in commands. Some examples
  ls -lat
  ls -a
  ```
+ `cd ~` stands for change directory, and the "~" navigates you to the home. So cd ~ would change your current directory to the home directory. While plain cd changes your current directory to the specified path. `ls -lat` is similar to just doing the `ls` command in that it lists what is availible. However the difference is it is more specfic, arranging them in respect to time. Finally `ls -a` reveals all entries, inluding entries with a `.` infront of them.
  An example would be using `ls -lat` which would look something like this
  ![image](scr1.png)
- With this information you should be ready to remote connect and use commands in the remotely connected enviroment.
+This screenshot shows the output of lyping `ls -lat`. The things of note are the `total` at the top of the screen which indicates that everything is being listed without anything being hidden, it also just identifies how many things are included. Looking at the far right with all the colors you can see some of the names have colors, this is the part in which `ls -lat` reveals everything. So this being said `ls lat` makes sure to reveals everything and organizes them with respect to time. With this information you should be ready to remote connect and use commands in the remotely connected enviroment. 
