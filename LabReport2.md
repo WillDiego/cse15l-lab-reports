@@ -13,7 +13,7 @@ This is a screenshot of the code used to run the server. Areas of note are the t
 * This screenshot is simlar with the class used being Handler class with the method `handleRequest` being the method doing all of the work.
 * For this the relevant aspects of the method for this specific call is similar to the last screenshot with the else statement being used, in which the code checks the path and if it contains `/add-message`. If it does, which this test does, the code then checks if `s` is included in the first part of the query. Then if it is, the text containing our message is concatenated with the new text with the addition of a new line character. 
 * The values that change in this run is just the `String s` at the top of the Handler class. The string is concatenated with the value `"Banana!!" + '\n'`.
- ## Part 2: Bugs
+## Part 2: Bugs
  In this section I will be going over one of the bugs we covered in class. For this I will be choosing the `averageWithoutLowest` method in the `ArrayExamples` class.  This method is intended to take an array of doubles and return the average of the numbers, excluding the single lowest number. However the program instead returns the average of the numbers in the array, excluding all occurrences of the lowest number. For example the array of `[1.0, 1.0, 1.0, 1.0, 1.0, 5.0]` would return `5.0 / 5` instead of `9.0 / 5`. I fixed this program by changing the way in which it summed the numbers. I did this by summing up all the numbers in the array and then subtracting the lowest number at the end. This fixed the bug in the array and made it so it returned the correct average everytime.
  * A failure inducing input for this:
 ```
