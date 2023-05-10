@@ -54,7 +54,7 @@ technical/911report/chapter-6.txt:                the assassination ban. Hence, 
 technical/911report/chapter-6.txt:                the ban on assassinations in Executive Order 12333. The big issues-who would pay for
 ```
 This is another good example with a different directory. It shows the same result that only the files contating `ban` are shown, not any files contating a word that includes ban.
-## Option 4 -l:
+## Option 4: -l
 This command can be used like:
 ```
 $ grep "ban" -l  technical/911report/*.txt
@@ -83,3 +83,9 @@ technical/911report/chapter-3.txt
 technical/911report/chapter-5.txt
 ```
 This is another example that shows all the files that contain the word `guy`. This demontrates that only 3 files in all of the 911report contain the word `guy`.
+
+
+
+
+Apologies if the code breaks were cut off. The formating of printing caused some of them not to wrap and get cut off.
+If you'd like a link to the webpage itself it can be viewed here: https://willdiego.github.io/cse15l-lab-reports/LabReport3.html
