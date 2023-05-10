@@ -21,7 +21,7 @@ This command can be used like:
 $ grep "asparagus" -r technical/            
 technical/government/About_LSC/commission_report.txt:typically work in Yakima from the April asparagus harvest through
 ```
-This example demonstrates the -r command which recursively searches through all of the files in a directory (and all sub directories). This is a good demonstration becuase in the argument it can be seen that I jsut
+This example demonstrates the -r command which recursively searches through all of the files in a directory (and all sub directories). This is a good demonstration becuase in the argument it can be seen that I just put in the directory `technical/` and no files yet there was a file output. This demonstrates that the grep command went through every single file and checked if there was an occurance of the word `asparagus`.
 ```
 $ grep "amazing" -r technical/
 technical/911report/preface.txt:                the American people and their amazing resilience and courage as they fought back. We
@@ -36,14 +36,15 @@ technical/plos/journal.pbio.0020035.txt:        amazing array of so-called secon
 technical/plos/journal.pbio.0020262.txt:        (mirror-reversed organs) and succumbs to laughter at the sight of Ditto, the amazing
 technical/plos/journal.pbio.0020311.txt:        degree. A single hormone can regulate an amazingly diverse array of cellular and
 ```
+This is another good example becuase it shows again how only the `technical` directory was used but so many files were found. Therefore demonstrating that there was some recursion when findind the files.
 ## Option 3: -w
-only grep the whole word
+This command can be used like: 
 ```
 $ grep "ban" -w technical/biomed/*.txt
 technical/biomed/1471-2091-2-12.txt:        microbial pathogen outbreak, inspired a governmental ban on
 technical/biomed/1472-6963-3-1.txt:          after the ban, noncitizens must not receive public
 ```
-
+The `-w` is a command that only takes instances of the whole word not occurances inside of a word. This can be seen in the example:
 ```
 $ grep "ban" -w technical/911report/*.txt
 technical/911report/chapter-13.3.txt:                they concluded that killing Bin Ladin did not violate the assassination ban
