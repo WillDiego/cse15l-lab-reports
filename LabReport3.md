@@ -44,7 +44,7 @@ $ grep "ban" -w technical/biomed/*.txt
 technical/biomed/1471-2091-2-12.txt:        microbial pathogen outbreak, inspired a governmental ban on
 technical/biomed/1472-6963-3-1.txt:          after the ban, noncitizens must not receive public
 ```
-The `-w` is a command that only takes instances of the whole word not occurances inside of a word. This can be seen in the example:
+The `-w` is a command that only takes instances of the whole word not occurances inside of a word. This can be seen in the example because only the word ban shows up not other words such as banana. As shown earlier there were infact files in the biomed folder that contained the words banana so this shows that only the word that is only `ban` is shown.
 ```
 $ grep "ban" -w technical/911report/*.txt
 technical/911report/chapter-13.3.txt:                they concluded that killing Bin Ladin did not violate the assassination ban
@@ -53,8 +53,9 @@ technical/911report/chapter-3.txt:                increased. A proposal to ban k
 technical/911report/chapter-6.txt:                the assassination ban. Hence, Massoud was told not to take any such action without
 technical/911report/chapter-6.txt:                the ban on assassinations in Executive Order 12333. The big issues-who would pay for
 ```
-
-## Option 4: 
+This is another good example with a different directory. It shows the same result that only the files contating `ban` are shown, not any files contating a word that includes ban.
+## Option 4 -l:
+This command can be used like:
 ```
 $ grep "ban" -l  technical/911report/*.txt
 technical/911report/chapter-1.txt
@@ -74,10 +75,11 @@ technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ```
-
+The -l lists only the file paths of the files that contaion the instance of `ban`. So in this case all the files listed contain an occurance of `ban` however we do not see where it is found becuase that is what -l hides.
 ```
 $ grep "guy" -l  technical/911report/*.txt
 technical/911report/chapter-1.txt
 technical/911report/chapter-3.txt
 technical/911report/chapter-5.txt
 ```
+This is another example that shows all the files that contain the word `guy`. This demontrates that only 3 files in all of the 911report contain the word `guy`.
