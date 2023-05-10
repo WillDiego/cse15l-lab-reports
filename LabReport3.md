@@ -38,3 +38,19 @@ technical/plos/journal.pbio.0020311.txt:        degree. A single hormone can reg
 ```
 ## Option 3: -w
 only grep the whole word
+```
+$ grep "ban" -w technical/biomed/*.txt
+technical/biomed/1471-2091-2-12.txt:        microbial pathogen outbreak, inspired a governmental ban on
+technical/biomed/1472-6963-3-1.txt:          after the ban, noncitizens must not receive public
+```
+
+```
+$ grep "ban" -w technical/911report/*.txt
+technical/911report/chapter-13.3.txt:                they concluded that killing Bin Ladin did not violate the assassination ban
+technical/911report/chapter-13.4.txt:                location, the CIA might have violated the assassination ban. Tenet did not recall
+technical/911report/chapter-3.txt:                increased. A proposal to ban knives altogether in 1993 had been rejected because
+technical/911report/chapter-6.txt:                the assassination ban. Hence, Massoud was told not to take any such action without
+technical/911report/chapter-6.txt:                the ban on assassinations in Executive Order 12333. The big issues-who would pay for
+```
+
+## Option 4: 
