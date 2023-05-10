@@ -15,3 +15,6 @@ technical/biomed/1471-2105-3-6.txt:          of bananas.", has USM coordinates
 technical/biomed/1471-2105-3-6.txt:          bananas ". The matching of the two
 ```
 This example again shows the power of the ignore case becuase I searched for the word `BANANA` in all caps but the output was the files in all lowercase. This demonstrates the power of using the -i because it helps find all instances of the input regardless of the case.
+## Option 2: -r
+This command can be used like:
+```
