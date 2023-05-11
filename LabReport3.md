@@ -1,5 +1,5 @@
 # Lab Report 3
-The command that will be used in this report will be the `grep` command
+The command that will be used in this report will be the `grep` command 
 ## Option 1: -i
 This command can be used like:
 ```
