@@ -14,6 +14,7 @@ To clone the repository I typed:
 ```
 git clone git@github.com:WillDiego/lab7.git <enter>
 ```
+I simply just cloned the repository using the SSH part on github.
 ![Server Running 1](Step2.png)
 
 ## Step 3: Demonstrate Failure
@@ -36,6 +37,7 @@ What I did here was open the ListExamples file in vim then move the cursor down 
   ```
 <up> <up> <enter>
   ```
+  Using the past history I reran the test.sh file.
   ![Server Running 1](Step5.png)
   
 ## Step 6: Commit and Push
@@ -45,6 +47,7 @@ git add . <enter>
 git commit -m "update" <enter>
 git push <enter>
 ```
+I used the commands above to commit and push the files to github.
 ![Server Running 1](Step6.png)
 
 
