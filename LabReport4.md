@@ -12,7 +12,7 @@ git clone git@github.com:WillDiego/lab7.git <enter>
 
 ## Step 3: Demonstrate Failure
 To demonstrate that the code is buggy I typed:
-“cd lab7/” <enter> “ls” "<enter>" “bash test.sh” <enter>
+“cd lab7/” <enter> “ls” <enter> “bash test.sh” <enter>
 So the first command was to change the directory into the lab7/ directory. Then I checked to see the contents, then I ran the bash file and was given the error below.
 
 ## Step 4: Edit Code
@@ -21,7 +21,9 @@ To edit the code I typed:
 What I did here was open the ListExamples file in vim then move the cursor down then to the right. Then pressed x to delete and then i to go to insert mode then 2 to add the number 2 then escape to leave insert mode then the last command to save and quit.
 
 ## Step 5: Demonstrate Success
+  ```
 <up> <up> <enter>
+  ```
 ## Step 6: Commit and Push
 I typed:
 git add . <enter>
