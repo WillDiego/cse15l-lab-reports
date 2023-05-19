@@ -12,7 +12,7 @@ git clone git@github.com:WillDiego/lab7.git <enter>
 
 ## Step 3: Demonstrate Failure
 To demonstrate that the code is buggy I typed:
-“cd lab7/” <enter> “ls” <enter> “bash test.sh” <enter>
+“cd lab7/” <enter> “ls” "<enter>" “bash test.sh” <enter>
 So the first command was to change the directory into the lab7/ directory. Then I checked to see the contents, then I ran the bash file and was given the error below.
 
 ## Step 4: Edit Code
