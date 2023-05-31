@@ -47,3 +47,7 @@ javac *.java
 java Main
 ```
 4) To fix the bug in the end I simply changed what value was updated on line 63.
+
+## Reflection
+In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
+I really enjoyed learning vim because it showed me how to to use just to command line to be able to clone a file from online, edit it, and then push it back to github all while staying in the command line. Overall this class taught me so much about servers and how to run them remotely (now  I know how to make a minecraft server on a remote server)
