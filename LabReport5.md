@@ -33,3 +33,13 @@ Thank you for the in depth response. According to the information provided it se
 ## Student Second Attempt
 Thank you so much for your advice, you were correct in the index part. I accidentally updated the wrong variable in one of the loops. So line 63 should have `i2++;` instead of `i1++;`. Really the error just resulted in the right side adding the same variable over and over. Below is a screenshot of the fixed code and proper output.
 
+## Recap
+1) The file and directory structure is not relevant
+2) Contents:
+(im1)(im2)
+3) Command Lines:
+```
+javac *.java
+java Main
+```
+4) To fix the bug in the end I simply changed what value was updated on line 63.
