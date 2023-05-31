@@ -27,3 +27,5 @@ int[] arr = {1, 22, 14, 2, 3, 6, 4, 10, 11, 4};
 MergeSort.mergeSort(arr);
 System.out.println(Arrays.toString(MergeSort.mergeSort(arr)));
 ```
+## TA Response
+Thank you for the in depth response. According to the information provided it seems that the bug is most likely in the MergeSort class. It also seems like there is a minor issue when iterating through the arrays. So take a closer look when going through and specifically check the variables. If this response is not enough you can follow up or go to office hours.
