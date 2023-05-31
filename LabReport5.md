@@ -1,11 +1,11 @@
 # Lab Report 5: Debugging
 
 ## Student Post
-What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
+**What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 
 System information: (Mac M1 (ARM), MacOS: 13.3.1 (22E261), safari, vscode)
 
-Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+**Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 
 Currently I have created an implementation for merge sort however when I run merge sort on a given array, It sorts it but does not have all the correct elements, it seems like it just removes a bunch. Screenshots will be provided below:
 
