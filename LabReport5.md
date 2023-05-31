@@ -8,7 +8,7 @@ System information: (Mac M1 (ARM), MacOS: 13.3.1 (22E261), safari, vscode)
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
 Currently I have created an implementation for merge sort however when I run merge sort on a given array, It sorts it but does not have all the correct elements, it seems like it just removes a bunch. Screenshots will be provided below:
-
+![Server Running 1](LBR5-1.png)
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
@@ -32,12 +32,16 @@ Thank you for the in depth response. According to the information provided it se
 
 ## Student Second Attempt
 Thank you so much for your advice, you were correct in the index part. I accidentally updated the wrong variable in one of the loops. So line 63 should have `i2++;` instead of `i1++;`. Really the error just resulted in the right side adding the same variable over and over. Below is a screenshot of the fixed code and proper output.
+![Server Running 1](LBR5-2.png)
 
 ## Recap
 1) The file and directory structure is not relevant
 2) Contents:
-(im1)(im2)
-3) Command Lines:
+Before:
+![Server Running 1](LBR5-1.png)
+After:
+![Server Running 1](LBR5-2.png)
+3) Command Line
 ```
 javac *.java
 java Main
